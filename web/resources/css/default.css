@@ -1,19 +1,24 @@
-body {
-    background-color: #ffffff;
-    font-size: 12px;
-    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
-    color: #000000;  
-    margin: 10px;
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+body {
+    background-color: #fff;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+
 h1 {
-    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
-    border-bottom: 1px solid #AFAFAF; 
     font-size:  16px;
     font-weight: bold;
     margin: 0px;
     padding: 0px;
-    color: #D20005;
+    color: #7693a9;
+    text-align: center;
 }
 
 a:link, a:visited {
@@ -26,4 +31,8 @@ a:link:hover, a:visited:hover  {
   color: #045491;
   font-weight : bold;
   text-decoration : underline;
+}
+
+.link {
+    font-size: 1rem;
 }

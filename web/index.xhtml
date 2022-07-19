@@ -5,15 +5,17 @@
     <h:head>
         <title>Facelet Title</title>
         <h:outputStylesheet name="css/jsfcrud.css"/>
+        <h:outputStylesheet library="css" name="default.css"/>
     </h:head>
     <h:body>
-<!--        Hello from Facelets
+        <!--        Hello from Facelets
+                <br />
+                <h:link outcome="welcomePrimefaces" value="Primefaces welcome page" />
+                <br />-->
+        <h:link outcome="/departamento/List" target="prin" value="Departamentos" class="link"/>
         <br />
-        <h:link outcome="welcomePrimefaces" value="Primefaces welcome page" />
-        <br />-->
-        <h:link outcome="/departamento/List" target="prin" value="Departamentos"/>
         <br />
-        <h:link outcome="/empleado/List" target="prin" value="Empleados"/>
+        <h:link outcome="/empleado/List" target="prin" value="Empleados" class="link"/>
     </h:body>
 
 
