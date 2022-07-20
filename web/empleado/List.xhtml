@@ -41,9 +41,9 @@
                         </p:column>
                         <p:column>
                             <f:facet name="header">
-                                <h:outputText value="#{bundle.ListEmpleadoTitle_idDep}"/>
+                                <h:outputText value="#{bundle.ListEmpleadoTitle_nombreDep}"/>
                             </f:facet>
-                            <h:outputText value="#{item.idDep}"/>
+                            <h:outputText value="#{item.idDep.nombre}"/>
                         </p:column>
                         <f:facet name="footer">
                             <p:commandButton id="createButton" icon="ui-icon-plus"   value="#{bundle.Create}" actionListener="#{empleadoController.prepareCreate}" update=":EmpleadoCreateForm" oncomplete="PF('EmpleadoCreateDialog').show()"/>

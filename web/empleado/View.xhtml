@@ -17,7 +17,7 @@
                         <h:outputText value="#{bundle.ViewEmpleadoLabel_nombre}"/>
                         <h:outputText value="#{empleadoController.selected.nombre}" title="#{bundle.ViewEmpleadoTitle_nombre}"/>
                         <h:outputText value="#{bundle.ViewEmpleadoLabel_idDep}"/>
-                        <h:outputText value="#{empleadoController.selected.idDep}" title="#{bundle.ViewEmpleadoTitle_idDep}"/>
+                        <h:outputText value="#{empleadoController.selected.idDep.nombre}" title="#{bundle.ViewEmpleadoTitle_idDep}"/>
                     </p:panelGrid>
                     <p:commandButton value="#{bundle.Close}" onclick="EmpleadoViewDialog.hide()"/>
                 </h:panelGroup>

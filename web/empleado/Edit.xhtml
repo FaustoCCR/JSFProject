@@ -12,8 +12,7 @@
             <h:form id="EmpleadoEditForm">
                 <h:panelGroup id="display">
                     <p:panelGrid columns="2" rendered="#{empleadoController.selected != null}">
-                        <p:outputLabel value="#{bundle.EditEmpleadoLabel_idEmp}" for="idEmp" />
-                        <p:inputText id="idEmp" value="#{empleadoController.selected.idEmp}" title="#{bundle.EditEmpleadoTitle_idEmp}" required="true" requiredMessage="#{bundle.EditEmpleadoRequiredMessage_idEmp}"/>
+                        
                         <p:outputLabel value="#{bundle.EditEmpleadoLabel_nombre}" for="nombre" />
                         <p:inputText id="nombre" value="#{empleadoController.selected.nombre}" title="#{bundle.EditEmpleadoTitle_nombre}" />
                         <p:outputLabel value="#{bundle.EditEmpleadoLabel_idDep}" for="idDep" />
